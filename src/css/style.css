@@ -1,0 +1,68 @@
+
+
+.inputBtn:hover {
+    -fx-background-color: #ebebeb;
+}
+
+.inputBtn:pressed {
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.inputBtn{
+    -fx-background-radius: 50;
+    -fx-background-color: white;
+}
+
+.secondBtn{
+    -fx-background-radius: 50;
+    -fx-background-color: #9fc2f8;
+    -fx-border-color:  #4860d9;
+    -fx-border-radius: 50;
+}
+
+.secondBtn:hover{
+    -fx-background-color: #9fc2f8;
+}
+
+.gradientBtn:pressed{
+    -fx-scale-y: 0.9;
+    -fx-scale-x: 0.9;
+}
+
+.gradientBtn:hover{
+    /* -fx-background-color: linear-gradient(from 25% 25% to 100% 100%,#FFF500,#FF00B8); */
+    -fx-background-color: linear-gradient(from 5% 5% to 100% 100%,#FFF500,#FF00B8);
+    
+}
+
+.gradientBtn{
+    -fx-background-radius: 5;
+    -fx-background-size: 400% 400%;
+    -fx-background-position: 50% 0;
+    -fx-font-size: 16;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 0 5 0 5;
+    -fx-background-color: linear-gradient(from 25% 25% to 100% 100%,#FF00B8,#FFF500);
+}
+
+.sideBar{
+    -fx-background-color: rgb(240, 240, 240);
+    -fx-background-radius: 10;
+}
+
+.historyBox{
+    -fx-background-color: rgb(240, 240, 240);
+}
+
+.clearHistoryBtn:pressed{
+    -fx-background-color: rgb(220, 220, 220);
+}
+.clearHistoryBtn{
+    -fx-background-radius: 0 0 10 10;
+    -fx-background-color: rgb(230, 230, 230);
+    -fx-text-fill:#3c56d7;
+    -fx-font-size: 16;
+    -fx-view-order: 6;
+}

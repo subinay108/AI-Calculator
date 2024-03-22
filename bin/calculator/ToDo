@@ -1,0 +1,9 @@
+1. font size becomes small after certain length
+2. limit number length upto 15 digits
+4. implement 2nd Btn text switch (done)
+5. implement mc, m+, m-, mr using file
+6. implement history using file
+
+AI in calculator
+1. Calling OpenAI api with user's api key
+2. 

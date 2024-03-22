@@ -1,0 +1,3 @@
+<a href="https://www.flaticon.com/free-icons/history" title="history icons">History icons created by Tempo_doloe - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/calculator" title="calculator icons">Calculator icons created by Freepik - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/back-arrow" title="back arrow icons">Back arrow icons created by Ilham Fitrotul Hayat - Flaticon</a>
