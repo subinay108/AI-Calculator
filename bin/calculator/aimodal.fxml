@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-border-color: black;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculator.AIModalController">
+   <children>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="6.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/setting.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="24.0" layoutX="570.0" layoutY="7.0" onMouseClicked="#closeModalWindow" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/close.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <ScrollPane layoutX="32.0" layoutY="41.0" minViewportWidth="522.0" prefHeight="287.0" prefWidth="537.0">
+         <content>
+            <VBox prefWidth="520.0">
+               <children>
+                  <VBox alignment="TOP_CENTER" minWidth="-Infinity" prefHeight="154.0" prefWidth="480.0" style="-fx-padding: 5 10 5 10;">
+                     <children>
+                        <Label prefHeight="32.0" prefWidth="500.0" style="-fx-font-weight: bold;" text="You">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label prefWidth="500.0" text="Find the compound interest (CI) on Rs. 12,600 for 2 years at 10% per annum compounded annually." wrapText="true">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="32.0" prefWidth="500.0" style="-fx-font-weight: bold;" text="AI">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER" prefWidth="480.0" style="-fx-background-color: #d0ddf1; -fx-background-radius: 5;">
+                           <children>
+                              <Label prefWidth="460.0" text="Find the compound interest (CI) on." wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/calculator24.png" />
+                                 </image>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+                  <VBox alignment="TOP_CENTER" layoutX="10.0" layoutY="10.0" minWidth="-Infinity" prefHeight="154.0" prefWidth="500.0" style="-fx-padding: 5 10 5 10;">
+                     <children>
+                        <Label prefHeight="32.0" prefWidth="500.0" style="-fx-font-weight: bold;" text="You">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label prefWidth="500.0" text="Find the compound interest (CI) on Rs. 12,600 for 2 years at 10% per annum compounded annually." wrapText="true">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                           </padding>
+                        </Label>
+                        <Label prefHeight="32.0" prefWidth="500.0" style="-fx-font-weight: bold;" text="AI">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <HBox alignment="CENTER" prefWidth="480.0" style="-fx-background-color: #d0ddf1; -fx-background-radius: 5;">
+                           <children>
+                              <Label prefWidth="460.0" text="Find the compound interest (CI) on." wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                                 <padding>
+                                    <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                 </padding>
+                              </Label>
+                              <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../img/calculator24.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </HBox>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                  </VBox>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+      <HBox alignment="CENTER" layoutX="38.0" layoutY="334.0" prefHeight="57.0" prefWidth="522.0" style="-fx-background-radius: 50; -fx-border-radius: 50; -fx-border-color: #4860d9;">
+         <children>
+            <TextField prefHeight="43.0" prefWidth="451.0" promptText="Ask any mathematical question..." styleClass="promptInput" stylesheets="@../css/aimodal.css">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="24.0" fitWidth="24.0" onMouseClicked="#sendMesssage" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../img/send.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

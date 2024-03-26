@@ -1,9 +1,16 @@
 1. font size becomes small after certain length
 2. limit number length upto 15 digits
 4. implement 2nd Btn text switch (done)
-5. implement mc, m+, m-, mr using file
-6. implement history using file
+5. implement mc, m+, m-, mr using file (done)
+6. implement history using file (done but file is not implemented yet)
 
 AI in calculator
-1. Calling OpenAI api with user's api key
-2. 
+1. Calling Claude api with user's api key (done)
+2. Make User Interface (done)
+3. open ai modal from controller.java (done)
+4. complete AIModalController.java
+5. api key settings user Interface
+6. loading animation while fetching the api data
+7. check valid api key 
+8. give different error message for the prompt
+9. 

@@ -303,7 +303,7 @@
             </Button>
          </children>
       </GridPane>
-      <Button fx:id="aiBtn" layoutX="11.0" layoutY="14.0" mnemonicParsing="false" styleClass="gradientBtn" stylesheets="@../css/style.css" text="AI" />
+      <Button fx:id="aiBtn" layoutX="11.0" layoutY="14.0" mnemonicParsing="false" onMouseClicked="#showAIModal" styleClass="gradientBtn" stylesheets="@../css/style.css" text="AI" />
       <ImageView fx:id="hisImageView" fitHeight="24.0" fitWidth="24.0" layoutX="12.0" layoutY="85.0" onMouseClicked="#showHideHistoryBar" pickOnBounds="true" preserveRatio="true" styleClass="gradientBtn">
          <image>
             <Image url="@../img/history32.png" />

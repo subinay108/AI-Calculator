@@ -19,6 +19,7 @@
     -fx-background-color: #9fc2f8;
     -fx-border-color:  #4860d9;
     -fx-border-radius: 50;
+    color: #d0ddf1;
 }
 
 .secondBtn:hover{
