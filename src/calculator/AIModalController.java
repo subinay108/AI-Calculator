@@ -1,6 +1,5 @@
 package calculator;
 
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.input.MouseEvent;
@@ -9,12 +8,23 @@ public class AIModalController {
     @FXML
     private TextField promptInput;
 
-    public void initialize(){
+    boolean isApiKeySet = false;
 
+    public void initialize(){
+        if(!isApiKeySet){
+            showSettings();
+        }
     }
 
-    public void sendMesssage(ActionEvent e){
+    public void showSettings(){
+        
+    }
+
+    public void sendMesssage(MouseEvent e){
         String prompt = promptInput.getText();
+        if(prompt.isEmpty()){
+            return;
+        }
         promptInput.clear();
         System.out.print(prompt);
     }
